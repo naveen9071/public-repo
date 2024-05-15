@@ -2,7 +2,7 @@
 #  default = "1"
 #}
 variable "ami" {
-  default = "ami-042b34111b1289ccd"
+  default = "ami-042b3411289ccd"
 }
 variable "instance_type" {
   default = "t2.medium"
@@ -14,10 +14,10 @@ variable "key_name" {
   default = "open-terraform"
 }
 variable "security_group_id" {
-  default = "sg-0c2fe03036ede5b16"
+  default = "sg-0c2fe036ede5b16"
 }
 variable "subnet_id" {
-  default = "subnet-0c1f151a45b855597"
+  default = "subnet-0c1f1515b855597"
 }
 variable "public_ip" {
   default = "true"
